@@ -1,0 +1,35 @@
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Large single-cell objects
+*.rds
+*.RDS
+*.RData
+*.h5
+*.h5ad
+*.loom
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+
+# Data and analysis results
+data/raw/*
+data/processed/*
+results/*
+
+# Local configuration files
+config/*.csv
+
+# Keep documentation files
+!data/README.md
+!config/README.md
+
+# System files
+.DS_Store
+Thumbs.db
