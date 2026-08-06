@@ -497,8 +497,8 @@ save_base_pdf(file.path(figure_dir, "CellChat_incoming_dotplot.pdf"), 14, 12, {
   print(netAnalysis_dot(cellchat, pattern = "incoming"))
 })
 
-saveRDS(cellchat, file.path(object_dir, "SCLC_CellChat.rds"))
-saveRDS(cellchat_db_use, file.path(object_dir, "SCLC_CellChat_database.rds"))
+saveRDS(cellchat, file.path(object_dir, "CellChat.rds"))
+saveRDS(cellchat_db_use, file.path(object_dir, "CellChat_database.rds"))
 
 writeLines(
   capture.output(sessionInfo()),
